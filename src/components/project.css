@@ -1,0 +1,28 @@
+.projectImage img{
+    height: 400px;
+}
+.proectContainer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100dvh;
+    padding: 100px;
+    
+}
+.projectDetail{
+    width: 40dvw;
+  
+    transform: rotate3d(1,1,0, 20deg);
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: left;
+}
+.second-project{
+ 
+}

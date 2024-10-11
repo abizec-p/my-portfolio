@@ -1,0 +1,42 @@
+.heroMain {
+  display: flex;
+  height: 50dvh;
+  background-image: url(../files/himalaya.jpg);
+  margin: 10dvh 10dvw;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20dvh;
+}
+.homepage {
+  height: 100dvh;
+}
+.showcase {
+  height: 80dvh;
+  width: 70dvh;
+  color: white;
+  background-color: transparent;
+}
+.showcase h1 {
+  padding-top: 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  background-color: none;
+}
+.biggerText {
+  font-size: 50px;
+  font-weight: bold;
+  color: #011126;
+}
+.textPart {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeWorks {
+  text-align: center;
+}

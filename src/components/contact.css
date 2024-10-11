@@ -1,0 +1,78 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: #3d9fc5;
+    
+}
+.contactSocial {
+    color: white;
+}
+.contactHeading{
+    text-align: center;
+    padding-bottom: 60px ;
+        color: white;
+
+     
+    
+}
+.contactTextPart h1{
+    color: white;
+    padding: 10px 0;
+
+}
+.contactTextPart li{
+list-style: none;
+padding: 10px 0;
+    color: white;
+
+}
+.contactHeading p{
+    width: 60dvw;
+}
+.contactContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80dvw;
+}
+.contactFormContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 0 3px rgb(214, 214, 214);
+    padding: 40px 20px;
+    width: 25dvw;
+    height: 60dvh;
+    border-radius: 15px;
+}
+
+.contactFormContainer input{
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border: none ;
+    outline: none;
+    border-radius: 15px;
+}
+.contactFormContainer textarea{
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    height: 20dvh;
+    border: none;
+    outline: none;
+        border-radius: 15px;
+
+}
+.contactSendButton{
+    padding: 10px 10px;
+    width: 10dvw;
+    margin-top: 10px;
+    background-color: #3d9fc5;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+}

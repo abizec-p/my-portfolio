@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    padding: 5px 0;
+    align-items: baseline;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100dvw;
+    z-index: 1;
+    box-shadow: 0 0 3px rgb(206, 206, 206);
+ 
+    
+}
+.logo{
+    font-size: 18px; 
+    margin-left: 10dvw;  
+}
+.logo h1{
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+}
+.menuItems{
+
+}
+.menuItems ul{
+    list-style: none;
+    margin-right: 9dvw;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    padding:  10px 15px;
+    color: white;
+
+    
+    
+
+}
+.contactButton{
+    background-color: var(--blue);
+    border-radius: 15px;
+    
+}
+.contactButton a{
+    color: white;
+}
+.navItems{
+    text-decoration: none;
+     font-size: 18px;
+color: black;
+     
+
+}
+.navItems:hover{
+         color: var(--blue);
+
+}
+.downloadResume{
+    background-color: var(--blue);
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px 10px;
+}
+.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--blue);
+    
+}
+.close{
+    display: none;
+
+}

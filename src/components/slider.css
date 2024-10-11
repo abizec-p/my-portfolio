@@ -1,0 +1,11 @@
+.slide img{
+height: 70dvh;
+display: flex;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
